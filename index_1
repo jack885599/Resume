@@ -1,0 +1,209 @@
+# resume
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        @import"assets/css/css.css";
+    </style>
+</head>
+
+<body>
+    <section id="aboutme">
+        <div class="me">
+            <img class="photo" src="assets/img/photo.jpg" alt="">
+        </div>
+        <div class="me2">
+            <br>
+            <p id="myname">李啟源<br><br>
+                中原大學 資訊管理學系
+                <br>
+            </p>
+            <p id="sc">
+                “人生最大的敵人是自己怯懦。”
+            </p><br>
+        </div>
+        <div class="me3">
+            <table class="tb1">
+                <tr>
+                    <td><a href="https://www.facebook.com/profile.php?id=100003166167529" class="icon"><img
+                                src="assets/img/fb.png"></a></td>
+                    <td>
+                        <p>Facebook</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://www.instagram.com/jack85599/" class="icon"><img src="assets/img/ig.png"></a>
+                    </td>
+                    <td>
+                        <p>Instagram</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="mailto:jack885599@gmail.com" class="icon"><img src="assets/img/mail.png"></a>
+                    </td>
+                    <td>
+                        <p>Mail</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"> <a href="https://github.com/10944236" id="ad">
+                            <div id="mywebsite">
+                                <p>個人網頁</p>
+                            </div>
+                        </a> </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section class="bod0">
+        <div class="edu">
+            <h2>Education | 學歷</h2>
+            <ul>
+                <li>高雄市凱旋國民小學<small>
+                        Kaohsiung Municipal Kaisyuan Primary School
+                    </small></li>
+                <li>高雄市五福國民中學<small>
+                        Kaohsiung Wu-Fu Junior High School
+                    </small></li>
+                <li>高雄師範大學附屬高中<small>
+                        Senior High School of Kaohsiung Normal University
+                    </small></li>
+                <li>中原大學<small>Chung Yuan Christian University</small></li>
+            </ul>
+        </div>
+        <div class="edu">
+            <h2>Experience | 經歷</h2>
+            <ul>
+                <li>高師大附中民吉社－總務</li>
+                <li>高雄市哈佛補習班工讀生</li>
+                <li>桃園市方華補習班工讀生</li>
+            </ul>
+        </div>
+    </section>
+    <section class="bod1">
+        <div id="skills4">
+            <h2>Programming Skills | 程式能力</h2><br><br><br><br><br>
+            <div class="bar back basic" data-skill="JSP"></div><br><br><br>
+            <div class="bar front intermediate" data-skill="PYTHON"></div><br><br><br>
+            <div class="bar back advanced" data-skill="MySQL"></div><br><br><br>
+            <div class="bar front expert" data-skill="JAVA"></div>
+        </div>
+        <div id="blank1"></div>
+        <div id="cir4">
+            <h2>Skills | 技能</h2><br>
+            <table class="box">
+                <tr class="tr1">
+                    <td class="td1">
+                        <div class="circle-wrap">
+                            <div class="circle">
+                                <div class="mask half2">
+                                    <div class="fill2"></div>
+                                </div>
+                                <div class="mask full2">
+                                    <div class="fill2"></div>
+                                </div>
+                                <div class="inside-circle2">
+                                    <div class="percent">後端網頁</div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="td1">
+                        <div class="circle-wrap">
+                            <div class="circle">
+                                <div class="mask half">
+                                    <div class="fill"></div>
+                                </div>
+                                <div class="mask full">
+                                    <div class="fill"></div>
+                                </div>
+                                <div class="inside-circle1">
+                                    <div class="percent">吉他</div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td1">
+                        <div class="circle-wrap">
+                            <div class="circle">
+                                <div class="mask half3">
+                                    <div class="fill3"></div>
+                                </div>
+                                <div class="mask full3">
+                                    <div class="fill3"></div>
+                                </div>
+                                <div class="inside-circle3">
+                                    <div class="percent">資料庫管理</div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="td1">
+                        <div class="circle-wrap">
+                            <div class="circle">
+                                <div class="mask half4">
+                                    <div class="fill4"></div>
+                                </div>
+                                <div class="mask full4">
+                                    <div class="fill4"></div>
+                                </div>
+                                <div class="inside-circle4">
+                                    <div class="percent">前端網頁</div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section id="bod2">
+        <h2>Works | 大學經歷</h2>
+        <section class="timeline">
+            <ul>
+                <li>
+                    <div>
+                        <time>109-1 管理學</time>
+                        <img src="assets/img/2020.JPG">
+                        <p>大一上因為管理學這堂課而到學校內的動物服務社協助動保社管理狗園。我們參與了動服社的活動，例如場地清潔工作、動物中途之家等等，為流浪動物盡一份心力。藉由這些活動可以了解流浪動物的生活和照顧人員的辛苦，並也藉此使我們在生活中能夠更加關注動物權利等議題。
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>109-2 企業概論</time>
+                        <img src="assets/img/coffee.jpg" onmouseover="src='assets/img/coffee1.jpg';"
+                            onmouseout="src='assets/img/coffee.jpg'">
+                        <p>在這堂課，學到的不只是單單企業的知識，分組的同時也必須有責任感。責任感十分重要，每個人就像一顆螺絲釘，自己負責的部分都要確實做好，才不會拖到整組的進度，而且每次任務都會被分到不同的工作，這樣的壓力督促我們把自己的
+                            部分做好。</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>110-1 網路程式設計</time>
+                        <img src="assets/img/house.jpg" onmouseover="src='assets/img/house1.jpg';"
+                            onmouseout="src='assets/img/house.jpg'">
+                        <p>大二上聯合甲班同學一起製作購物網站，因為先學後端，需要處理後端程式的同時也要兼顧甲班同學的排版，對於沒學過前端的我是一個很大的挑戰。還好最後有把前後端整合好，也很感謝甲班同學的配合。
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </section>
+</body>
+<footer>
+   Copyright©2022李啟源
+</footer> 
+<script src="assets/js/time.js"></script>
+
+</html>
